@@ -6,6 +6,12 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
+  <div id="master" class="post-it">
+    <div class="header"><span class="close">X</span></div>
+    <div class="content" contenteditable="true">WORDS!</div>
+  </div>
+
   <div id="board_selector">
     <h3>Select a board</h3>
     <ul id="board_list">
@@ -13,6 +19,10 @@
     <button id="new_board">New Board</button>
     <br>
     <button id="load_samples">Load Samples</button>
+  </div>
+
+  <div id="main-window">
+    <h1 id="title"></h1>
   </div>
 
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
