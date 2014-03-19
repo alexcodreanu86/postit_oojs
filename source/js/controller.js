@@ -8,6 +8,7 @@ var PostIt = function(){
     this.checkNewBoard(selMel);
     this.checkLoadSamples(selMel); 
     this.checkLoadBoard(selMel);
+    
   };
 
   this.checkLoadBoard = function(selMenu){
